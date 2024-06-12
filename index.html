@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parllel Home Page</title>
+    <style>
+        *{
+            margin:0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .sticky-header{
+            position: sticky;
+            width:100%;
+            top: 0px;
+            
+        }
+        header{
+            padding: 15px 0px;
+            background-color: aquamarine;
+        }
+        nav{
+            display: flex;
+            padding: 20px 0px;
+            background-color: black;
+            align-items: center;
+            justify-content: center;
+        }
+        .navbar{
+            display: flex;
+         }
+        .nav-items{
+            list-style: none;
+
+        }
+        .nav-items >a{
+            text-decoration: none;
+            color:white;
+            padding: 8px 7px;
+            margin: 0px 7px;
+
+        }
+        .nav-items >a:hover{
+            /* work is pendign  */
+        }
+        .bg1{
+
+        }
+        footer{
+            text-align: center;
+            padding: 15px;
+            background-color: black;
+            color: white;
+        }
+        .bg{
+            /* position: relative; */
+            background-attachment:fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.65;
+           
+        }
+        .bg1{
+            background-image: url("a.jpg");
+            min-height: 100vh;
+        }
+        .bg2{
+            background-image: url("b.jpg");
+            min-height: 400px;
+        }
+        .bg3{
+            background-image: url("c.jpg");
+            min-height: 600px;
+        }
+        /* .bg-content{
+            position: absolute;
+        } */
+        .content{
+            background-color: red;
+            height: 450px;
+            color: white;
+            /* position: relative; */
+        }
+    </style>
+</head>
+<body>
+    <div class="sticky-header">
+    <header>
+        This is a header
+    </header>
+    <nav>
+        <ul class="navbar">
+            <li class="nav-items"><a href="#">Home</a></li>
+            <li class="nav-items"><a href="#">Downlaod</a></li>
+            <li class="nav-items"><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+</div>
+
+    <div class="bg1 bg">
+        <div class="bg-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, esse nihil aspernatur in placeat eos vel sapiente, tempora non facere doloremque impedit alias praesentium similique minima dolore id sint laborum.
+        </div>
+
+    </div>
+    <div class="content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolor, molestias dicta autem harum fugiat fugit! Quisquam nulla modi architecto? Sunt, dignissimos iusto repudiandae enim explicabo at aut tempora earum provident quia quasi, itaque nam ipsum facere nemo odit, qui quidem temporibus eaque ea quas vero mollitia! Eaque sunt, veritatis porro impedit ipsam ex consequatur maxime corrupti quod, cum hic ab, aspernatur voluptatibus! Eligendi quasi animi quidem officia ipsam molestiae possimus voluptatum corporis libero placeat iste fugit ad esse consectetur corrupti itaque veritatis adipisci quibusdam, impedit aliquam amet nulla eveniet error labore? Dignissimos voluptate ut nulla aut placeat dolore consequuntur!
+    </div>
+    <div class="bg2 bg">
+        <div class="bg-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, esse nihil aspernatur in placeat eos vel sapiente, tempora non facere doloremque impedit alias praesentium similique minima dolore id sint laborum.
+        </div>
+
+    </div>
+    <div class="content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolor, molestias dicta autem harum fugiat fugit! Quisquam nulla modi architecto? Sunt, dignissimos iusto repudiandae enim explicabo at aut tempora earum provident quia quasi, itaque nam ipsum facere nemo odit, qui quidem temporibus eaque ea quas vero mollitia! Eaque sunt, veritatis porro impedit ipsam ex consequatur maxime corrupti quod, cum hic ab, aspernatur voluptatibus! Eligendi quasi animi quidem officia ipsam molestiae possimus voluptatum corporis libero placeat iste fugit ad esse consectetur corrupti itaque veritatis adipisci quibusdam, impedit aliquam amet nulla eveniet error labore? Dignissimos voluptate ut nulla aut placeat dolore consequuntur!
+    </div>
+    <div class="bg3 bg">
+        <div class="bg-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, esse nihil aspernatur in placeat eos vel sapiente, tempora non facere doloremque impedit alias praesentium similique minima dolore id sint laborum.
+        </div>
+
+    </div>
+
+
+    <footer>
+        this is a footer
+    </footer>
+</body>
+</html>
